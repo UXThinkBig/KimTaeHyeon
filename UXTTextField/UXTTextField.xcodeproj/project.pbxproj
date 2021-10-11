@@ -16,6 +16,7 @@
 		BD4D3AEE271440AC00AA0BCD /* ExampleTableStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4D3AED271440AC00AA0BCD /* ExampleTableStoryboard.storyboard */; };
 		BD4D3AF0271440B900AA0BCD /* ExampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D3AEF271440B900AA0BCD /* ExampleTableViewController.swift */; };
 		BD4D3AF3271441FB00AA0BCD /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D3AF2271441FB00AA0BCD /* PaddingLabel.swift */; };
+		BD4D3AF82714563E00AA0BCD /* TextFieldGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D3AF72714563E00AA0BCD /* TextFieldGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		BD4D3AED271440AC00AA0BCD /* ExampleTableStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExampleTableStoryboard.storyboard; sourceTree = "<group>"; };
 		BD4D3AEF271440B900AA0BCD /* ExampleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTableViewController.swift; sourceTree = "<group>"; };
 		BD4D3AF2271441FB00AA0BCD /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		BD4D3AF72714563E00AA0BCD /* TextFieldGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldGenerator.swift; sourceTree = "<group>"; };
 		F824B523053B0B739DDE8738 /* Pods-UXTTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXTTextField.release.xcconfig"; path = "Target Support Files/Pods-UXTTextField/Pods-UXTTextField.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,7 @@
 		BD4D3AD127143E7E00AA0BCD /* UXTTextField */ = {
 			isa = PBXGroup;
 			children = (
+				BD4D3AF52714562A00AA0BCD /* Utils */,
 				BD4D3AE727143F9400AA0BCD /* Components */,
 				BD4D3AE627143ED800AA0BCD /* Demo */,
 			);
@@ -135,6 +138,22 @@
 				BD4D3AEF271440B900AA0BCD /* ExampleTableViewController.swift */,
 			);
 			path = ExampleTable;
+			sourceTree = "<group>";
+		};
+		BD4D3AF52714562A00AA0BCD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BD4D3AF62714562F00AA0BCD /* Protocols */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BD4D3AF62714562F00AA0BCD /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BD4D3AF72714563E00AA0BCD /* TextFieldGenerator.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +274,7 @@
 				BD4D3AF0271440B900AA0BCD /* ExampleTableViewController.swift in Sources */,
 				BD4D3AF3271441FB00AA0BCD /* PaddingLabel.swift in Sources */,
 				BD4D3AD327143E7E00AA0BCD /* AppDelegate.swift in Sources */,
+				BD4D3AF82714563E00AA0BCD /* TextFieldGenerator.swift in Sources */,
 				BD4D3AD527143E7E00AA0BCD /* SceneDelegate.swift in Sources */,
 				BD4D3AEB2714403900AA0BCD /* BaeminStyleTextField.swift in Sources */,
 			);
