@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32E6824EF245532DF537BB70 /* Pods_UXTTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C64188AAF90E3012C7953B8 /* Pods_UXTTextField.framework */; };
+		BD4D3AD327143E7E00AA0BCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D3AD227143E7E00AA0BCD /* AppDelegate.swift */; };
+		BD4D3AD527143E7E00AA0BCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D3AD427143E7E00AA0BCD /* SceneDelegate.swift */; };
+		BD4D3ADC27143E8000AA0BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4D3ADB27143E8000AA0BCD /* Assets.xcassets */; };
+		BD4D3ADF27143E8000AA0BCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4D3ADD27143E8000AA0BCD /* LaunchScreen.storyboard */; };
+		BD4D3AEB2714403900AA0BCD /* BaeminStyleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D3AEA2714403900AA0BCD /* BaeminStyleTextField.swift */; };
+		BD4D3AEE271440AC00AA0BCD /* ExampleTableStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4D3AED271440AC00AA0BCD /* ExampleTableStoryboard.storyboard */; };
+		BD4D3AF0271440B900AA0BCD /* ExampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D3AEF271440B900AA0BCD /* ExampleTableViewController.swift */; };
+		BD4D3AF3271441FB00AA0BCD /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D3AF2271441FB00AA0BCD /* PaddingLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77DAA4D9DE8F72B8F0F25A48 /* Pods-UXTTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXTTextField.debug.xcconfig"; path = "Target Support Files/Pods-UXTTextField/Pods-UXTTextField.debug.xcconfig"; sourceTree = "<group>"; };
+		7C64188AAF90E3012C7953B8 /* Pods_UXTTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UXTTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4D3ACF27143E7E00AA0BCD /* UXTTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UXTTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4D3AD227143E7E00AA0BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD4D3AD427143E7E00AA0BCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BD4D3ADB27143E8000AA0BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD4D3ADE27143E8000AA0BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD4D3AE027143E8000AA0BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4D3AEA2714403900AA0BCD /* BaeminStyleTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaeminStyleTextField.swift; sourceTree = "<group>"; };
+		BD4D3AED271440AC00AA0BCD /* ExampleTableStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExampleTableStoryboard.storyboard; sourceTree = "<group>"; };
+		BD4D3AEF271440B900AA0BCD /* ExampleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTableViewController.swift; sourceTree = "<group>"; };
+		BD4D3AF2271441FB00AA0BCD /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		F824B523053B0B739DDE8738 /* Pods-UXTTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXTTextField.release.xcconfig"; path = "Target Support Files/Pods-UXTTextField/Pods-UXTTextField.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD4D3ACC27143E7E00AA0BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E6824EF245532DF537BB70 /* Pods_UXTTextField.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2679466963869A940A0E37F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C64188AAF90E3012C7953B8 /* Pods_UXTTextField.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		722239AF43BEE58777B36D35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77DAA4D9DE8F72B8F0F25A48 /* Pods-UXTTextField.debug.xcconfig */,
+				F824B523053B0B739DDE8738 /* Pods-UXTTextField.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD4D3AC627143E7E00AA0BCD = {
+			isa = PBXGroup;
+			children = (
+				BD4D3AD127143E7E00AA0BCD /* UXTTextField */,
+				BD4D3AD027143E7E00AA0BCD /* Products */,
+				722239AF43BEE58777B36D35 /* Pods */,
+				2679466963869A940A0E37F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD4D3AD027143E7E00AA0BCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD4D3ACF27143E7E00AA0BCD /* UXTTextField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD4D3AD127143E7E00AA0BCD /* UXTTextField */ = {
+			isa = PBXGroup;
+			children = (
+				BD4D3AE727143F9400AA0BCD /* Components */,
+				BD4D3AE627143ED800AA0BCD /* Demo */,
+			);
+			path = UXTTextField;
+			sourceTree = "<group>";
+		};
+		BD4D3AE627143ED800AA0BCD /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				BD4D3AE92714401800AA0BCD /* Scene */,
+				BD4D3AE827143FE200AA0BCD /* Supporting Files */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		BD4D3AE727143F9400AA0BCD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BD4D3AF2271441FB00AA0BCD /* PaddingLabel.swift */,
+				BD4D3AEA2714403900AA0BCD /* BaeminStyleTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BD4D3AE827143FE200AA0BCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD4D3AD227143E7E00AA0BCD /* AppDelegate.swift */,
+				BD4D3AD427143E7E00AA0BCD /* SceneDelegate.swift */,
+				BD4D3ADB27143E8000AA0BCD /* Assets.xcassets */,
+				BD4D3ADD27143E8000AA0BCD /* LaunchScreen.storyboard */,
+				BD4D3AE027143E8000AA0BCD /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD4D3AE92714401800AA0BCD /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				BD4D3AEC2714407C00AA0BCD /* ExampleTable */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		BD4D3AEC2714407C00AA0BCD /* ExampleTable */ = {
+			isa = PBXGroup;
+			children = (
+				BD4D3AED271440AC00AA0BCD /* ExampleTableStoryboard.storyboard */,
+				BD4D3AEF271440B900AA0BCD /* ExampleTableViewController.swift */,
+			);
+			path = ExampleTable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD4D3ACE27143E7E00AA0BCD /* UXTTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4D3AE327143E8000AA0BCD /* Build configuration list for PBXNativeTarget "UXTTextField" */;
+			buildPhases = (
+				902649AD9BA0BD6E74553222 /* [CP] Check Pods Manifest.lock */,
+				BD4D3ACB27143E7E00AA0BCD /* Sources */,
+				BD4D3ACC27143E7E00AA0BCD /* Frameworks */,
+				BD4D3ACD27143E7E00AA0BCD /* Resources */,
+				307EA8FF15285D264915A677 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UXTTextField;
+			productName = UXTTextField;
+			productReference = BD4D3ACF27143E7E00AA0BCD /* UXTTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD4D3AC727143E7E00AA0BCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					BD4D3ACE27143E7E00AA0BCD = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = BD4D3ACA27143E7E00AA0BCD /* Build configuration list for PBXProject "UXTTextField" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD4D3AC627143E7E00AA0BCD;
+			productRefGroup = BD4D3AD027143E7E00AA0BCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD4D3ACE27143E7E00AA0BCD /* UXTTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD4D3ACD27143E7E00AA0BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4D3ADF27143E8000AA0BCD /* LaunchScreen.storyboard in Resources */,
+				BD4D3ADC27143E8000AA0BCD /* Assets.xcassets in Resources */,
+				BD4D3AEE271440AC00AA0BCD /* ExampleTableStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		307EA8FF15285D264915A677 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UXTTextField/Pods-UXTTextField-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UXTTextField/Pods-UXTTextField-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UXTTextField/Pods-UXTTextField-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		902649AD9BA0BD6E74553222 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UXTTextField-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD4D3ACB27143E7E00AA0BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4D3AF0271440B900AA0BCD /* ExampleTableViewController.swift in Sources */,
+				BD4D3AF3271441FB00AA0BCD /* PaddingLabel.swift in Sources */,
+				BD4D3AD327143E7E00AA0BCD /* AppDelegate.swift in Sources */,
+				BD4D3AD527143E7E00AA0BCD /* SceneDelegate.swift in Sources */,
+				BD4D3AEB2714403900AA0BCD /* BaeminStyleTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD4D3ADD27143E8000AA0BCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD4D3ADE27143E8000AA0BCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD4D3AE127143E8000AA0BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD4D3AE227143E8000AA0BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD4D3AE427143E8000AA0BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77DAA4D9DE8F72B8F0F25A48 /* Pods-UXTTextField.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W895YM7ZMH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UXTTextField/Demo/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taekkiDev.UXTTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD4D3AE527143E8000AA0BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F824B523053B0B739DDE8738 /* Pods-UXTTextField.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W895YM7ZMH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UXTTextField/Demo/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taekkiDev.UXTTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD4D3ACA27143E7E00AA0BCD /* Build configuration list for PBXProject "UXTTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4D3AE127143E8000AA0BCD /* Debug */,
+				BD4D3AE227143E8000AA0BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4D3AE327143E8000AA0BCD /* Build configuration list for PBXNativeTarget "UXTTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4D3AE427143E8000AA0BCD /* Debug */,
+				BD4D3AE527143E8000AA0BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD4D3AC727143E7E00AA0BCD /* Project object */;
+}
