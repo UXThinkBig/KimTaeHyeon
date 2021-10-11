@@ -82,7 +82,6 @@ class BaeminStyleTextField: UITextField, TextFieldGenerator {
     lazy var placeholderLabel = PaddingLabel().then {
         $0.text = titleText
         $0.textColor = .systemGray
-        $0.backgroundColor = .white
         $0.backgroundColor?.withAlphaComponent(0)
     }
     
@@ -131,6 +130,8 @@ class BaeminStyleTextField: UITextField, TextFieldGenerator {
     }
     
     private func updatePlaceholder() {
+        guard let titleText = titleText else { return }
+        placeholderLabel.backgroundColor = titleText.isEmpty ? UIColor.clear : .white
         self.placeholder = isFirstResponder ? placeholderText : ""
         self.placeholderLabel.text = titleText
         self.tintColor = cursorColor
