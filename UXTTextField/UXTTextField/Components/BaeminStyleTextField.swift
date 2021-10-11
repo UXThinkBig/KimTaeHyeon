@@ -130,12 +130,11 @@ class BaeminStyleTextField: UITextField, TextFieldGenerator {
     }
     
     private func updatePlaceholder() {
+        guard let titleText = titleText else { return }
+        placeholderLabel.backgroundColor = titleText.isEmpty ? UIColor.clear : .white
         self.placeholder = isFirstResponder ? placeholderText : ""
         self.placeholderLabel.text = titleText
         self.tintColor = cursorColor
-        
-        guard let titleText = titleText else { return }
-        placeholderLabel.backgroundColor = titleText.isEmpty ? UIColor.clear : .white
     }
     
     // MARK: - Animation
